@@ -1,0 +1,304 @@
+/* dashboardpage.css */
+
+.container-dashboard {
+    padding: 20px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+    width: 1250px;
+    margin: 0 auto; /* Memusatkan konten */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-lg-12 {
+    padding: 0 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.header-container {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.dashboard-card {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.dashboard-stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.dashboard-stat {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #f1f3f5;
+    border-radius: 8px;
+}
+
+.dashboard-stat h3 {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.dashboard-stat p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.dashboard-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.dashboard-list-section {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard-list h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.dashboard-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.dashboard-list li img.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+canvas {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-width: 600px;
+    max-height: 400px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+/* dashboardpage.css */
+
+.container-laporan {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.laporan-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.laporan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.laporan-header h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.laporan-header button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.laporan-header button:hover {
+    background-color: #0056b3;
+}
+
+.chart-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+.chart-container canvas {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.laporan-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.laporan-stat {
+    text-align: center;
+}
+
+.laporan-stat h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.laporan-stat p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.laporan-list {
+    margin-top: 20px;
+}
+
+.laporan-list-section {
+    margin-bottom: 20px;
+}
+
+.laporan-list-section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.laporan-list-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.laporan-list-section li {
+    margin-bottom: 10px;
+}
+
+.laporan-list-section li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.laporan-list-section li span {
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .laporan-card {
+        padding: 15px;
+    }
+
+    .laporan-header h2 {
+        font-size: 20px;
+    }
+
+    .laporan-header button {
+        padding: 8px 16px;
+    }
+
+    .chart-container canvas {
+        margin-top: 15px;
+    }
+
+    .laporan-stat h3 {
+        font-size: 16px;
+    }
+
+    .laporan-stat p {
+        font-size: 20px;
+    }
+
+    .laporan-list-section h3 {
+        font-size: 16px;
+    }
+
+    .laporan-list-section li img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .laporan-list-section li span {
+        font-size: 14px;
+    }
+}

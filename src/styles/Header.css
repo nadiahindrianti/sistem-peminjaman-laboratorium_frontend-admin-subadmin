@@ -1,0 +1,82 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 15px;
+    color: #45464E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: flex;
+    top: 0;
+    z-index: 1000;
+    border-radius: 8px;
+  }
+  
+  .header-logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .header-navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .header-navigation a {
+    color: #45464E;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  /* Icon Home Styles */
+  .icon-home {
+    margin-right: 5px;
+  }
+  
+  .icon-home-img {
+    width: 20px;
+    height: 20px;
+    color: #535bf2; /* Warna pink */
+  }
+  
+  /* Subtitle Styles */
+  .subtitle {
+    display: flex;
+    align-items: center;
+    color: #888;
+  }
+  
+  /* Profile and Notification Styles */
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .div-icon {
+    margin-right: 10px;
+  }
+  
+  .div-icon-inner {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-icon-bar {
+    width: 20px;
+    height: 20px;
+    fill: #535bf2; 
+  }
+  
+  .div-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }

@@ -1,0 +1,234 @@
+/* Global Styles */
+.jadwal-page {
+  width: 100%;
+  margin:0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f4f1;
+    max-height: 100vh; /* Sesuaikan dengan tinggi yang diinginkan */
+  }
+  
+  /* Main Container Styles */
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header Styles */
+  .header {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 15px;
+    color: #45464E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: flex;
+    top: 0;
+    z-index: 1000;
+    border-radius: 8px;
+  }
+  
+  .header-logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .header-navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .header-navigation a {
+    color: #45464E;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  /* Icon Home Styles */
+  .icon-home {
+    margin-right: 5px;
+  }
+  
+  .icon-home-img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Subtitle Styles */
+  .subtitle {
+    display: flex;
+    align-items: center;
+    color: #888;
+  }
+  
+  /* Profile and Notification Styles */
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .div-icon {
+    margin-right: 10px;
+  }
+  
+  .div-icon-inner {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-icon-bar {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .div-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .txt-button-sesi{
+    color: #000;
+    font-family: 'Raleway' !important;
+    margin-right: 100px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+  
+  .kalender-containers {
+    width: 95%;
+    margin: 20px auto 5px; /* Adjusted margin */
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; /* Sesuaikan dengan jarak yang diinginkan antar elemen */
+
+  }
+  
+
+
+/* CSS untuk Tata Letak Sub Containers Kalender */
+.sub-jadwal-kalender {
+  width: 72%;
+  height: 400px;
+  margin: 25px auto 5px; /* Adjusted margin */
+  display: flex;
+  justify-content: space-between;
+  gap: 1px; /* Sesuaikan dengan jarak yang diinginkan antar elemen */
+
+}
+
+
+/* CSS untuk Tata Letak Sub Containers */
+.sub-content-jadwal-sesi {
+    width: 90%;
+    margin: 20px auto 5px; /* Adjusted margin */
+    display: flex;
+    justify-content: space-between;
+    gap: 3px; /* Sesuaikan dengan jarak yang diinginkan antar elemen */
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  
+  /* CSS untuk Tata Letak Left Container */
+  .Kalender-left {
+    width: calc(50% - 10px);
+    max-width: 628px;
+    height: 500px;    
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px; /* Adjusted margin */
+    background: transparent;
+
+  }
+  
+  /* Right Container Styles */
+  .Note-kalender {
+    width: calc(75% - 10px); /* 50% lebar dan dikurangi margin */
+    max-width: 628px;
+    height: 80px; 
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(257.34deg, #FD8BA3 0%, #FF5BCD 100%);
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px; /* Adjusted margin */
+  }
+
+  .Note-kalender2 {
+    width: calc(750% - 10px); /* 50% lebar dan dikurangi margin */
+    max-width: 628px;
+    height: 200px; 
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px; /* Adjusted margin */
+  }
+  
+
+
+  /* CSS untuk Tata Letak Left Container */
+  .Sesi-konseling {
+    width: calc(100% - 10px); /* 50% lebar dan dikurangi margin */
+    max-width: 560.5px;
+    height: 1000px ;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px; /* Adjusted margin */
+    background: rgba(255, 255, 255, 1);
+
+  }
+  
+  /* Right Container Styles */
+  .Sesi-acara {
+    width: calc(100% - 10px); /* 50% lebar dan dikurangi margin */
+    max-width: 590.5px;
+    height: 1000px ;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px; /* Adjusted margin */
+  }
+  

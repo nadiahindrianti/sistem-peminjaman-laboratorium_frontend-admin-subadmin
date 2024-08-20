@@ -1,0 +1,95 @@
+.password-input-wrapper {
+    position: relative;
+    margin-bottom: 1.5rem; /* Menambah ruang di bawah untuk keselarasan */
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px; /* Menambah jarak ke kanan */
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d; /* Warna ikon */
+    font-size: 1.2rem; /* Menambah ukuran ikon */
+}
+
+.input-with-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem; /* Menambah ruang di bawah untuk keselarasan */
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px; /* Menambah jarak ke kiri */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d; /* Warna ikon */
+    font-size: 1.2rem; /* Menambah ukuran ikon */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="fullname"],
+input[type="nim"],
+input[type="text"] {
+    padding-left: 45px; /* Menambah jarak padding untuk ikon */
+    padding-top: 10px; /* Menambah jarak padding atas */
+    padding-bottom: 10px; /* Menambah jarak padding bawah */
+    border-radius: 5px; /* Menambah border radius untuk tampilan lebih halus */
+    border: 1px solid #ced4da; /* Menambah border warna */
+    font-size: 1rem; /* Mengatur ukuran font */
+    width: 100%; /* Mengatur lebar input 100% dari parent */
+}
+
+.input-file-wrapper {
+    position: relative;
+    margin-bottom: 1.5rem; /* Menambah ruang di bawah untuk keselarasan */
+}
+
+input[type="file"] {
+    display: block; /* Menampilkan input file */
+    padding: 10px; /* Menambah padding */
+    border: 1px solid #ced4da; /* Menambah border warna */
+    border-radius: 5px; /* Menambah border radius untuk tampilan lebih halus */
+    font-size: 1rem; /* Mengatur ukuran font */
+    width: 100%; /* Mengatur lebar input 100% dari parent */
+    box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar elemen */
+}
+
+button[type="button"] {
+    margin-top: 5px; /* Menambah jarak 5px di bawah input file */
+    padding: 10px 20px; /* Mengatur padding tombol */
+    background-color: #007bff; /* Warna background tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none; /* Menghapus border */
+    border-radius: 5px; /* Menambah border radius untuk tampilan lebih halus */
+    cursor: pointer; /* Mengubah kursor saat dihover */
+    font-size: 1rem; /* Mengatur ukuran font tombol */
+}
+
+button[type="button"]:disabled {
+    background-color: #6c757d; /* Warna background tombol saat disabled */
+    cursor: not-allowed; /* Mengubah kursor saat tombol disabled */
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-popup {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}

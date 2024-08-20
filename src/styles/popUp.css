@@ -1,0 +1,85 @@
+:root {
+    --gradient-button-grad: linear-gradient(257deg, #FD8BA3 0%, #FF5BCD 100%);
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+  
+  .popup-header h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .popup div {
+    margin-bottom: 15px;
+  }
+
+
+  label {
+    display: block;
+    margin-bottom: 5px; /* Adjusted spacing */
+    margin-right: 10px; /* Atur jarak antara label dan checkbox sesuai kebutuhan */
+}
+  
+.popup div label {
+  margin-bottom: 5px; /* Adjusted spacing between label and checkbox */
+  display: flex;
+  align-items: center; /* Align label and checkbox vertically */
+}
+
+.popup div input[type="checkbox"] {
+  margin-right: 10px; /* Adjusted spacing between checkbox and text */
+}
+
+.popup div label span {
+  display: block; /* Ensure text is on a new line (block element) */
+}
+  
+  /* Center the filter button with wider width */
+  .filter-date-button {
+    background: var(--gradient-button-grad);
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 12px 20px; /* Wider padding */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0; /* Add margin for spacing */
+    display: block; /* Make the button a block element */
+  }
+  
+  /* Change font to Poppins for date inputs */
+  input[type="date"] {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .popup-header {
+    position: relative;
+}

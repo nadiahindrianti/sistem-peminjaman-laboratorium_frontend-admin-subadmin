@@ -1,0 +1,96 @@
+/* TableSection.css */
+
+.table-container-artikel {
+    width: 100px;
+    overflow-x: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.data-table-artikel {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table-artikel td {
+    border: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 150px;
+}
+
+.data-table-artikel th {
+    background-color: #f2f2f2;
+}
+
+.status-review {
+    border-radius: 8px;
+    background: rgba(10, 62, 183, 0.1);
+    color: var(--info-info-100, #146EFF);
+    text-align: center;
+}
+
+
+.status-published {
+    border-radius: 8px;
+    background: rgba(50, 147, 111, 0.16);
+    color: var(--success-success, #339A1A);
+    text-align: center;
+}
+
+
+.status-rejected {
+    border-radius: 8px;
+    background: rgba(255, 56, 45, 0.10);
+    color: var(--danger-danger, #FF382D);
+    text-align: center;
+}
+
+/* Your existing styles... */
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: #ff4b8e; /* Pink color */
+  }
+  
+  .items-per-page-select {
+    display: flex;
+    align-items: center;
+  }
+  .page-options-artikel {
+    margin-top: 20px;
+    overflow: hidden; /* Hide any content that overflows */
+    padding: 0
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+  }
+
+  .page-options-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+  }
+
+  .pagination-buttons {
+    margin-left: auto; /* Move the pagination buttons to the right */
+  }
+
+  .article-title-cell {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  

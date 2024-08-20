@@ -1,0 +1,140 @@
+/* TableSection.css */
+#table-database-akun-user{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.data-table-database-akun-user th {
+    background-color: #f2f2f2;
+}
+
+
+/* Your existing styles... */
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: #ff4b8e; /* Pink color */
+  }
+  
+  .custom-button {
+    background: rgba(244, 81, 141, 0.20) !important;
+    border: none !important;
+    color: #F4518D !important;
+}
+
+#data-database-akun-user th, .data-database-akun-user td{
+    border: none solid #ddd;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 110px;
+    text-align: center;
+}
+
+.data-database-akun-user th {
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: center;
+  }
+
+#btn-edit-user{
+    border: none;
+    background: none;
+}
+#header-modal-edit-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#footer-modal-edit-user{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+#footer-modal-edit-user .bg-button{
+   background: var(--Primary-Gradient-1, linear-gradient(257deg, #FD8BA3 0%, #FF5BCD 100%)) !important;
+   color: #ffff !important;
+   border: none;
+}
+
+#modal-edit-user {
+    width: max-content;
+}
+
+.button-edit-ruangan {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  
+  .button-edit-ruangan:hover {
+    color: #0056b3;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .items-per-page {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .pagination-dropdown {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+  
+  .items-per-page span, .pagination-dropdown span {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  .items-per-page select, .pagination-dropdown select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it is above other content */
+  }
+  
+  .loading-popup {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .loading-popup p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  

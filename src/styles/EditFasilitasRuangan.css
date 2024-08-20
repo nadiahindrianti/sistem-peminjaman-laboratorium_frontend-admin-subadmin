@@ -1,0 +1,126 @@
+.modalEditRuangan {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px; /* Ukuran modal kecil */
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow-y: auto; /* Aktifkan scroll vertikal jika konten melebihi tinggi modal */
+  max-height: 80vh; /* Batasi tinggi maksimum modal untuk memastikan masih dapat di-scroll */
+}
+
+.modalEditRuanganHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 10px; /* Padding bawah untuk pemisah */
+}
+
+.modalEditRuanganHeader h2 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #333;
+}
+
+.modalEditRuanganCloseButton {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.modalEditRuanganCloseButton:hover {
+  color: #333;
+}
+
+.modalEditRuanganContent {
+  margin-bottom: 20px;
+}
+
+.modalEditRuanganFormGroup {
+  margin-bottom: 15px;
+}
+
+.modalEditRuanganFormGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.modalEditRuanganFormGroup input,
+.modalEditRuanganFormGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #333;
+}
+
+.modalEditRuanganFormGroup textarea {
+  resize: vertical;
+}
+
+.modalEditRuanganFormGroup .form-control-file {
+  padding: 5px;
+}
+
+.modalEditRuanganImgPreview {
+  display: block;
+  margin-top: 10px;
+  max-width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.modalEditRuanganActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px; /* Jarak atas untuk pemisah */
+}
+
+.modalEditRuanganActions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modalEditRuanganActions button:hover {
+  background-color: #0056b3;
+}
+
+.uploadButton {
+  background-color: #007bff; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  border: none;
+  padding: 10px 20px; /* Padding di dalam tombol */
+  cursor: pointer;
+  border-radius: 4px; /* Sudut lengkung tombol */
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Animasi perubahan warna */
+}
+
+.uploadButton:hover {
+  background-color: #0056b3; /* Warna latar belakang saat tombol dihover */
+}
+
+.form-control-file {
+  /* Style untuk input file */
+  margin-top: 5px; /* Jarak antara tombol dan input file */
+}
+

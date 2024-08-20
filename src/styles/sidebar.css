@@ -1,0 +1,235 @@
+/* Sidebar.css */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 247px;
+  min-height: 120vh; /* Set minimum height to 100% of the viewport height */
+  padding: 33px 0px 33px 24px;
+  flex-shrink: 0;
+  background: #0b4d70;
+  color: black;
+  position: fixed; /* Fixed position */
+  top: 0; /* Stick to the top */
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds viewport height */
+}
+
+.main-layout {
+  display: flex;
+}
+
+.content {
+  font-family: Nunito -16;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  flex: 1;
+  padding: 20px;
+}
+
+.line {
+  font-family: Nunito -16;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Tambahkan garis bawah */
+  width: 100%; /* Menyesuaikan panjang garis dengan lebar halaman */
+  display: block; /* Membuat garis menjadi blok agar mencakup lebar penuh */
+}
+
+
+.admin-icon {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  position: fixed;
+  top: 30px;
+  right:17px;
+  cursor: pointer;
+}
+.logo{
+  font-family: Poppins;
+  font-size: 15px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.sidebar {
+  width: 20%;
+  min-height: 20;
+  position: relative; /* Remove fixed positioning */
+  
+}
+.menu-open .sidebar {
+  left: 0; /* Menampilkan sidebar ketika menu dibuka */
+}
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  flex-direction: column; /* Mengubah menjadi flex-direction: column */
+  align-items: flex-start; /* Mengubah menjadi align-items: flex-start */
+  background-color: #0b4d70;
+  padding: 10px 30px;
+  color: black;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column; /* Mengubah menjadi flex-direction: column */
+  align-items: flex-start; /* Mengubah menjadi align-items: flex-start */
+}
+
+.center-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-left: 10px;
+}
+
+
+.menu-icon.open {
+  transform: rotate(90deg); /* Memutar ikon ketika menu terbuka */
+}
+
+.center-image {
+  width: 24px; /* Lebar gambar */
+  height: 24px; /* Tinggi gambar */
+  margin-right: 10px; /* Jarak antara gambar dan teks "Women Center" */
+}
+
+.center-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 400;
+  font-style: normal;
+  color:  rgb(255, 255, 255);
+}
+
+
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column; /* Mengubah menjadi flex-direction: column */
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px; /* Mengubah menjadi margin-bottom untuk jarak antara elemen sidebar */
+}
+
+a {
+  text-decoration: none;
+  color:  rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .main-layout {
+    flex-direction: column-reverse;
+  }
+}
+
+/* Tambahkan aturan CSS untuk sisi atas sidebar */
+
+.sidebar-top {
+  /* Existing styles for the top of the sidebar */
+  position: sticky; /* Sticky positioning */
+  top: 0; /* Stick to the top */
+  background-color: var(--primary-f-9-f-5-f-6, #4CAF50);
+  color: black;
+}
+
+
+/* Tambahkan aturan CSS untuk tabel */
+.custom-table {
+  display: flex;
+  width: 450px;
+  height: 145px;
+  padding: 11px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--gradient-button-grad, linear-gradient(257deg, #FD8BA3 0%, #FF5BCD 100%)); 
+}
+
+.custom-table th, .custom-table td {
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 8px; /* Sesuaikan padding sesuai kebutuhan */
+  text-align: left; /* Sesuaikan alignment sesuai kebutuhan */
+  color: var(--primary-f-9-f-5-f-6, #F9F5F6); /* Warna teks sesuai dengan kebutuhan */
+}
+
+.admin-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0b4d70;
+  padding: 10px 12px;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #ccc; 
+  font-family: 'Times New Roman', Times, serif;/* Add a border line at the bottom */
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0b4d70;
+  padding: 0px 12px;
+  color:  rgb(255, 255, 255);
+}
+
+
+
+.logout-button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}

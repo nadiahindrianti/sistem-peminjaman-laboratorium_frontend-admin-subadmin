@@ -1,0 +1,121 @@
+.head-list-dashboard {
+    display: flex;
+    padding: 0px 8px;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+    margin-top: 10px;
+}
+
+.all-list-dashboard {
+    display: flex;
+    width: 100%;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.search-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 2.315px 2.048px 1.667px 2.315px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; /* Add border to the search box if needed */
+    border-radius: 4px; /* Add border-radius for rounded corners if needed */
+    padding: 8px; /* Add padding to the search box if needed */
+    width: 250px;
+    height: 29px;
+    gap: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    align-self: stretch;
+    color: var(--black-2, #ABAFB1);
+    font-family: 'Poppins' !important;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.txt-view {
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.list-jadwal-dashboard {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.content-jadwal-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.text-content-jadwal-dashboard {
+    color: var(--neutral-0-c-0-c-0-c-neutral, #1F1F1F);
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.jadwal-dashboard {
+    display: flex;
+    padding: 4px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 0.7px solid var(--neutral-stroke, #E1E2E9);
+    align-items: center;
+    gap: 32px;
+}
+
+.name-jadwal,
+.desc-jadwal,
+.date-jadwal,
+.time-jadwal,
+.full-name-jadwal {
+    color: var(--neutral-0-c-0-c-0-c-neutral, #1F1F1F);
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image-jadwal {
+    margin-top: -20px;
+}
+
+.all-jadwal-dashboard {
+    width: 100%;
+}

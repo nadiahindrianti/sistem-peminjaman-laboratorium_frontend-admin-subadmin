@@ -1,0 +1,48 @@
+/* TableSection.css */
+
+.table-container-database {
+    width: 98%;
+    overflow-x: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.data-table-database {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table-database th, .data-table-database td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.data-table-database td {
+    border: none; /* Remove border lines from td */
+}
+
+.data-table-database th {
+    background-color: #f2f2f2;
+}
+
+
+/* Your existing styles... */
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: #ff4b8e; /* Pink color */
+  }
+  
+  .custom-button {
+    background: rgba(244, 81, 141, 0.20) !important;
+    border: none !important;
+    color: #F4518D !important;
+
+    /* Atur properti CSS lainnya jika diperlukan */
+}

@@ -1,0 +1,304 @@
+#modal-Penjadwalan, .modal-Penjadwalan {
+  /* Atur properti untuk tampilan modal */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Efek gelap pada latar belakang */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Gaya untuk konten modal */
+#modal-Penjadwalan, .modal-konten-Penjadwalan {
+  /* Atur properti untuk kotak konten modal */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  height: 95%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#modal-Penjadwalan, .judul-Penjadwalan {
+  text-align: left; /* Pusatkan teks */
+  margin-bottom: 20px; /* Jarak bawah */
+}
+
+
+#modal-Penjadwalan, .judul-Penjadwalan h1 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(31, 31, 31, 1); /* Warna teks */
+  margin: 0; /* Hapus margin default */
+}
+
+
+#modal-Penjadwalan, .form-group-Penjadwalan {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+  border: none;
+  box-shadow: 10px;
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+#modal-Penjadwalan, .form-group-Penjadwalan label {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+/* Sesuaikan dengan desain tombol close yang Anda inginkan */
+#btn-closePenjadwalan {
+  /* Atur properti untuk tombol close */
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+
+
+
+/* Gaya untuk input teks dengan class 'np' */
+#modal-Penjadwalan input.np {
+  /* Atur properti untuk input teks dengan class 'np' */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(239, 241, 249, 0.6);
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Gaya untuk input teks dengan class 'nk' */
+#modal-Penjadwalan input.nk {
+  /* Atur properti untuk input teks dengan class 'nk' */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(239, 241, 249, 0.6);
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Gaya untuk input teks dengan class 'nu' */
+#modal-Penjadwalan input.nu {
+  /* Atur properti untuk input teks dengan class 'nu' */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(239, 241, 249, 0.6);
+  color: #1F1F1F;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Gaya untuk input tanggal */
+#modal-konseling input[type='date'] {
+  /* Atur properti untuk input tanggal */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(239, 241, 249, 0.6);
+}
+
+/* Gaya untuk judul sesi */
+#modal-konseling, .sesi-title {
+  /* Atur properti untuk judul sesi */
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'Poppins', 'sans-serif';
+  color: #1F1F1F;
+  margin-top: 5px;
+}
+
+
+/* Gaya untuk container tombol pada bagian akhir */
+#modal-konseling, .button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* Gaya untuk tombol pada bagian akhir */
+#modal-konseling, .button-container button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 20px;
+  font-family: 'Inter', 'sans-serif';
+}
+
+/* Gaya untuk tombol 'Batalkan Konseling' */
+#modal-konseling, .button-container button:nth-child(1) {
+  background-color: #fff;
+  color:rgba(51, 132, 178, 0.86);
+  border: 1px solid rgba(51, 132, 178, 0.86);
+}
+
+/* Gaya untuk tombol 'Submit' */
+#modal-konseling, .button-container button:nth-child(2) {
+  background: rgba(51, 132, 178, 0.86);
+  color: #fff;
+}
+/* FileUpload.css */
+
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  width: 100%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-container input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/*.modal-content-scrollable {
+  max-height: 80vh; /* Mengatur tinggi maksimum modal konten */
+/*  overflow-y: auto; /* Membuat konten modal dapat di-scroll */
+/*}
+
+/* Modal buat penjadwalan */
+/* Penjadwalan.css */
+
+.Modal_jadwal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ModalOverlay_jadwal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ModalHeader_jadwal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ModalHeader_jadwal h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.ModalContent_jadwal {
+  margin-bottom: 20px;
+}
+
+.form-group_jadwal {
+  margin-bottom: 15px;
+}
+
+.form-group_jadwal label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group_jadwal input[type="text"],
+.form-group_jadwal input[type="date"],
+.form-group_jadwal select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  color: #1F1F1F;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group_jadwal input[type="file"] {
+  margin-top: 5px;
+}
+
+.form-group_jadwal p {
+  margin: 0;
+  padding: 8px 0;
+}
+
+.ModalActions {
+  text-align: right;
+}
+
+.ModalActions button[type="submit"],
+.ModalFooter button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.ModalCloseButton {
+  border: none;
+  background-color: transparent;
+  color: #aaa;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.ModalCloseButton:hover {
+  color: #555;
+}
+
+@media (max-width: 500px) {
+  .Modal_jadwal {
+    width: 90%;
+  }
+}
